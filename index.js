@@ -3,7 +3,7 @@ const bot = new Discord["Client"]();
 const request = require("request")
 const moment = require("moment")
 const prefix = "-";
-function run(){bot["login"]("NzI5MTEwMzU3NTAyNTkxMDQ4.XwEK7w.tRsRi6dRcn-Vc7CEzl9Eg7-3n4I")["then"](()=>{console["log"]("Loggined_To_Copypaste_Bot");bot["user"]["setActivity"](`${prefix}help`, {type:"PLAYING"});bot["user"]["setStatus"]("idle")})}
+function run(){bot["login"]("")["then"](()=>{console["log"]("Loggined_To_Copypaste_Bot");bot["user"]["setActivity"](`${prefix}help`, {type:"PLAYING"});bot["user"]["setStatus"]("idle")})}
 bot["setMaxListeners"](3)
 
 
